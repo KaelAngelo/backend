@@ -20,6 +20,8 @@ public class Permissao {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
+    private String nome;
+
     @Temporal(TemporalType.TIMESTAMP)
     private Date dataCriacao;
 
