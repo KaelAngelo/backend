@@ -4,7 +4,6 @@ package br.com.eassistemas.dev.backend.entity;
 import java.util.Date;
 import java.util.List;
 
-import org.springframework.boot.actuate.autoconfigure.cloudfoundry.AccessLevel;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
