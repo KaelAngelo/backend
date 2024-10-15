@@ -28,4 +28,6 @@ public class PermissaoPessoa {
     @ManyToOne
     @JoinColumn(name = "idPermissao")
     private Permissao permissao;
+
+    
 }
